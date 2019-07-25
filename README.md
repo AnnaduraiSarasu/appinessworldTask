@@ -17,4 +17,4 @@ Node Server:
 2. run the server: run npm test
 
 Notes:
- i used mongodb so need to install mongodb in your local system.
+    mongodb used so need to install mongodb in your local system.
