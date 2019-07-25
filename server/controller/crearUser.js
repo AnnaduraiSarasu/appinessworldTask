@@ -17,7 +17,7 @@ const createUser ={
             const user = usermodel(userObj);
             datares = await user.save();
          }else{
-            userObj.role ="noadmin";
+            userObj.role ="user";
             const user = usermodel(userObj);
             datares = await user.save();
          }
