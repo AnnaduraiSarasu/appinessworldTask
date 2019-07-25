@@ -101,6 +101,8 @@ class adminUser extends Component {
 
                   }else{
                       this.data = res.data.data;
+                        document.getElementById("create-course-form").reset();
+
                                 this.setState({
                         data:this.data
                       });
@@ -142,7 +144,8 @@ class adminUser extends Component {
             <React.Fragment>
               <div className="d-flex justify-content-center align-items-center container ">  
                 <div className="row ">
-                   <form className="form-horizontal" action='#' method="POST">
+
+                   <form className="form-horizontal" id="create-course-form" action='#' method="POST">
                       <fieldset>
                         <div id="legend">
                         <legend>Create User</legend>
