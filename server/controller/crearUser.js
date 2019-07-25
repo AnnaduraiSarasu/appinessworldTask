@@ -4,7 +4,7 @@ const createUser ={
     createRegisterUser: async (req,res) =>{
          const userObj ={};
          let datares;
-         let userBody =req.body.user;
+         let userBody =req.body;
          userObj.email =userBody.email;
          userObj.username =userBody.username;
          userObj.password =userBody.password;
