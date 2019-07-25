@@ -15,3 +15,5 @@ Node Server:
 
 1. open cmd then set path to server : run npm test
 
+Notes:
+ i used mongodb so need to install mongodb in your local system.
